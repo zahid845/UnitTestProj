@@ -16,6 +16,8 @@
 		049B05EE28CEA01000F4B00F /* UnitTestProjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B05ED28CEA01000F4B00F /* UnitTestProjTests.swift */; };
 		049B05F828CEA01000F4B00F /* UnitTestProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B05F728CEA01000F4B00F /* UnitTestProjUITests.swift */; };
 		049B05FA28CEA01000F4B00F /* UnitTestProjUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B05F928CEA01000F4B00F /* UnitTestProjUITestsLaunchTests.swift */; };
+		049B060728CEA21200F4B00F /* UITestFile3s.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B060628CEA21200F4B00F /* UITestFile3s.swift */; };
+		049B060928CEA22900F4B00F /* Pokeman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B060828CEA22900F4B00F /* Pokeman.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		049B05F328CEA01000F4B00F /* UnitTestProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049B05F728CEA01000F4B00F /* UnitTestProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestProjUITests.swift; sourceTree = "<group>"; };
 		049B05F928CEA01000F4B00F /* UnitTestProjUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestProjUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		049B060628CEA21200F4B00F /* UITestFile3s.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestFile3s.swift; sourceTree = "<group>"; };
+		049B060828CEA22900F4B00F /* Pokeman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokeman.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				049B05D628CEA00F00F4B00F /* AppDelegate.swift */,
 				049B05D828CEA00F00F4B00F /* SceneDelegate.swift */,
+				049B060628CEA21200F4B00F /* UITestFile3s.swift */,
+				049B060828CEA22900F4B00F /* Pokeman.swift */,
 				049B05DA28CEA00F00F4B00F /* ViewController.swift */,
 				049B05DC28CEA00F00F4B00F /* Main.storyboard */,
 				049B05DF28CEA01000F4B00F /* Assets.xcassets */,
@@ -261,6 +267,7 @@
 				049B05DB28CEA00F00F4B00F /* ViewController.swift in Sources */,
 				049B05D728CEA00F00F4B00F /* AppDelegate.swift in Sources */,
 				049B05D928CEA00F00F4B00F /* SceneDelegate.swift in Sources */,
+				049B060928CEA22900F4B00F /* Pokeman.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				049B05EE28CEA01000F4B00F /* UnitTestProjTests.swift in Sources */,
+				049B060728CEA21200F4B00F /* UITestFile3s.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +444,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = 6YKR59QXKM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UnitTestProj/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -449,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zahid.UnitTestProj;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.cerebralinnovations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -463,7 +472,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = 6YKR59QXKM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UnitTestProj/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zahid.UnitTestProj;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdbotics.cerebralinnovations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -490,7 +500,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 18;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
@@ -509,7 +519,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 18;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
@@ -527,7 +537,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 18;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = zahid.UnitTestProjUITests;
@@ -544,7 +554,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 18;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = zahid.UnitTestProjUITests;

@@ -1,0 +1,9 @@
+app_identifier("com.crowdbotics.cerebralinnovations") # The bundle identifier of your app
+apple_id("zahid.nazir@crowdbotics.com") # Your Apple Developer Portal username
+
+itc_team_id("118738877") # App Store Connect Team ID
+team_id("6YKR59QXKM") # Developer Portal Team ID
+ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"] = "jpvy-qixt-clka-rxgp"
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
